@@ -1,0 +1,13 @@
+create database pokemon;
+use pokemon;
+CREATE TABLE pokedex (
+  numero int(3),
+  nombre varchar(12),
+  tipos varchar(50),
+  descripcion varchar(150),
+  habilidad varchar(20),
+  peso_kg decimal(12),
+  altura_m decimal(12),
+  categoria varchar(12),
+  PRIMARY KEY (numero)
+);
