@@ -1,0 +1,10 @@
+insert into pokedex values (1, "Bulbasaur", "planta, veneno", "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo", "Espesura", 6.9 , 0.7, "Semilla");
+insert into pokedex values (4, "Charmander", "fuego", "Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la punta de la cola.", "Mar llamas", 8.5, 0.6, "Lagartija");
+insert into pokedex values (7, "Squirtle", "agua", "Cuando retrae su largo cuello en el caparazón, dispara agua a una presión increíble.", "Torrente", 9.0, 0.5, "Tortuguita");
+insert into pokedex values (10, "Caterpie", "bicho", "Para protegerse, despide un hedor horrible por las antenas con el que repele a sus enemigos.","Polvo escudo", 2.9, 0.3,"gusano");
+insert into pokedex values (813, "Scorbunny", "fuego", "Se pone a correr para elevar su temperatura corporal y propagar la energía ígnea por todo el cuerpo. Desata así su verdadera fuerza.","Mar llamas", 4.5, 0.3, "Conejo");
+insert into pokedex values (18, "Pidgeot", "normal, volador", "Este Pokémon vuela a una velocidad de 2 mach en busca de presas. Sus grandes garras son armas muy peligrosas.", "Vista lince/Tumbos", 39.5, 1.5, "Pajaro");
+insert into pokedex values (19, "Rattata", "normal","Es propenso a hincar los incisivos en cualquier cosa que se le ponga por delante. Si se ve alguno, seguramente haya cuarenta cerca.", "Fuga/Agallas", 3.5, 0.3, "Raton");
+insert into pokedex values (94, "Gengar", "Fantasma, Veneno", "Para quitarle la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.","Cuerpo Maldito", 40.5, 1.5, "Sombra");
+insert into pokedex values (97, "Hypno", "Psiquico", "Cuando mira al enemigo, usa diversos poderes psíquicos como la hipnosis.", "Insomnio/Alerta", 75.6, 1.6, "Hipnosis");
+insert into pokedex values (152,"Chikorita", "Planta", "Un dulce aroma se desprende de la hoja de su cabeza. Es dócil y le encanta absorber los rayos de sol", "Espesura", 6.4, 0.9,"Hoja");
