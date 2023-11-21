@@ -1,20 +1,24 @@
-<?php $num =$_GET['numero']; ?>
+<?php $num = $_GET['numero']; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Modificacion de Pokedex</title>
+    <title>Modificación de Pokedex</title>
     <!-- Enlace a Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container mt-5">
-        <h1>Modificacion de Pokedex</h1>
-        <li><a class="btn" href="../index.php">Volver al Menu</a></li>
+        <h1>Modificación de Pokedex</h1>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="btn btn-secondary" href="../index.php">Volver al Menú</a>
+            </li>
+        </ul>
         <form action="../controller/update_pokedex.php" method="post">
-            
             <div class="mb-3">
                 <label for="numero">Numero:</label>
-                <input type="text" name="numero" id="numero" value="<?php echo $num; ?>"placeholder="Numero del Pokémon a Cambiar" require>
+                <input type="text" name="numero" id="numero" value="<?php echo $num; ?>" placeholder="Numero del Pokémon a Cambiar" required>
             </div>
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre:</label>
@@ -44,7 +48,7 @@
                 <label for="categoria" class="form-label">Categoria:</label>
                 <input type="text" class="form-control" name="categoria" placeholder="Categoría del Pokémon">
             </div>
-            <button type="submit" class="btn btn-primary">Agregar Pokemon a Pokedex</button>
+            <button type="submit" class="btn btn-primary">Modificar Pokemon en Pokedex</button>
         </form>
     </div>
 
